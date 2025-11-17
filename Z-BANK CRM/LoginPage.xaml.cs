@@ -15,16 +15,20 @@ using System.Windows.Shapes;
 
 namespace Z_BANK_CRM {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для LoginPage.xaml
     /// </summary>
-    public partial class MainWindow : Window {
-        public MainWindow() {
+    public partial class LoginPage : Page {
+        public LoginPage() {
             InitializeComponent();
-            MainFrame.Navigate(new LoginPage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e) {
+        private void LoginButton_Click(object sender, RoutedEventArgs e) {
+            /*
+             * ЗДЕСЬ РЕАЛИЗОВАТЬ ПРОВЕРКУ В БД
+             * */
 
+            //Переход на следующую страницу
+            NavigationService.Navigate(new MainPage());
         }
     }
 }

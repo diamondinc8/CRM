@@ -15,10 +15,10 @@ using System.Windows.Shapes;
 
 namespace Z_BANK_CRM {
     /// <summary>
-    /// Логика взаимодействия для Page1.xaml
+    /// Логика взаимодействия для CreditPage.xaml
     /// </summary>
-    public partial class Page1 : Page {
-        public Page1() {
+    public partial class CreditPage : Page {
+        public CreditPage() {
             InitializeComponent();
         }
     }

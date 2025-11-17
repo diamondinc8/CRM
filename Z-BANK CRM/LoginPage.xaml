@@ -1,0 +1,12 @@
+﻿<Page x:Class="Z_BANK_CRM.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Label Content="Вход в аккаунт" HorizontalAlignment="Center" Margin="0,181,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Click="LoginButton_Click"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="291,208,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="283,231,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
